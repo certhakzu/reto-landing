@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+- Pink: hsl(322, 100%, 66%)
+- Light Pink: hsl(321, 100%, 78%)
+- Light Red: hsl(0, 100%, 63%)
+*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+
+}
+.brand{
+    margin-top: -7px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.title{
+    font-size: 30px;
+    
+}
+.try-free{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+.try-free li{
+    list-style: none;
+    border-color: hsl(322, 100%, 66%);
+}
+
+.try-free a{
+    color: hsl(322, 100%, 66%);
+    text-decoration: solid;
+    padding: 5px 20px;
+    border-color: hsl(322, 100%, 66%);
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3rem;
+
+   
+}
+
+
+.try-free a:hover{
+    background-color:hsl(321, 100%, 78%) ;
+    color: white;
+    transition: ease-in .4s;
+}
