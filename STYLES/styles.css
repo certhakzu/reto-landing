@@ -134,30 +134,71 @@ NAVBAR
     box-shadow: 2px 3px 11px 3px var(--Pink) ;
 }
 /*ROJO*/
-
-/*BLUE*/
-.blue {
-    position: relative;
+/*START GREEN*/
+#Green {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    padding: 1.5rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+#green {
+    display: flex;
+    justify-content: space-around;
+}
+#Green img {
+    width: 80%;
+    padding: 0 2rem;
+}
+/*END GRREEN*/
+/*STAR YELLOW*/
+#yellow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
 }
 
-.blue div {
+#yellow div {
     font-size: 1.2rem;
     padding: 0 3rem;
 }
 
-.blue div h2 {
+#yellow div h2 {
     font-size: 1.8rem;
 }
 
-.blue img {
+#yellow img {
     width: 80%;
     padding: 0 2rem;
 }
+/*END YELLOW*/
+/*STAR BLUE*/
+#Blue {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
 
+#Blue div {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+}
+
+#Blue div h2 {
+    font-size: 1.8rem;
+}
+
+#Blue img {
+    width: 80%;
+    padding: 0 2rem;
+}
+/*END BLUE*/
 
 /* RESPONSIVE DESKTOP */
 @media only screen and (min-width: 480px) {
@@ -272,9 +313,10 @@ NAVBAR
         box-shadow: 2px 3px 11px 3px var(--Pink) ;
     }
     /*ROJO Terminacion*/
-
-    /*START BLUE*/
-    #blue {
+    /*START GREEN*/
+    /*END GRREEN*/
+    /*STAR YELLOW*/
+    #yellow {
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -282,20 +324,44 @@ NAVBAR
         padding: 1rem;
     }
     
-    #blue div {
+    #yellow div {
         font-size: 1.2rem;
         padding: 0 3rem;
     }
     
-    #blue div h2 {
+    #yellow div h2 {
         font-size: 1.8rem;
     }
     
-    #blue img {
+    #yellow img {
         width: 80%;
         padding: 0 2rem;
     }
-
+    /*END YELLOW*/
+    /*STAR BLUE*/
+    #Blue {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    #Blue div {
+        font-size: 1.2rem;
+        padding: 0 3rem;
+    }
+    
+    #Blue div h2 {
+        font-size: 1.8rem;
+    }
+    
+    #Blue img {
+        width: 80%;
+        padding: 0 2rem;
+    }
+    /*END BLUE*/
+    /*START BLACK*/
     /* SECTION YOUR USERS */
     #section-your-users {
         display: flex;
@@ -559,6 +625,66 @@ NAVBAR
         box-shadow: 2px 3px 11px 3px var(--Pink) ;
     }
     /*ROJO*/
+    /*START GREEN*/
+    /*END GRREEN*/
+    /*STAR YELLOW*/
+    #yellow {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 4rem;
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    #yellow div {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    #yellow div h2 {
+        font-size: 1.2rem;
+    }
+
+    #yellow div p {
+        font-size: 0.8rem;
+    }
+
+    #yellow img {
+        width: 90%;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    /*END YELLOW*/
+    /*STAR BLUE*/
+    #Blue {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 4rem;
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    #Blue div {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    #Blue div h2 {
+        font-size: 1.2rem;
+    }
+
+    #Blue div p {
+        font-size: 0.8rem;
+    }
+
+    #Blue img {
+        width: 90%;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    /*END BLUE*/
     /* NEGRO */
     /* SECTION YOUR USERS */
     #section-your-users {
