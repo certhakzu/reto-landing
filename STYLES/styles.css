@@ -2,6 +2,7 @@
     --Pink: hsl(322, 100%, 66%);
     --Light-Pink: hsl(321, 100%, 78%);
     --Light-Red: hsl(0, 100%, 63%);
+    --Blue-Light:rgb(247, 251, 255);
 }
 
 *{
@@ -134,6 +135,30 @@ NAVBAR
 }
 /*ROJO*/
 
+/*BLUE*/
+.blue {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1.5rem;
+}
+
+.blue div {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+}
+
+.blue div h2 {
+    font-size: 1.8rem;
+}
+
+.blue img {
+    width: 80%;
+    padding: 0 2rem;
+}
+
+
 /* RESPONSIVE DESKTOP */
 @media only screen and (min-width: 480px) {
     /*ROJO*/
@@ -247,6 +272,29 @@ NAVBAR
         box-shadow: 2px 3px 11px 3px var(--Pink) ;
     }
     /*ROJO Terminacion*/
+
+    /*START BLUE*/
+    #blue {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+    
+    #blue div {
+        font-size: 1.2rem;
+        padding: 0 3rem;
+    }
+    
+    #blue div h2 {
+        font-size: 1.8rem;
+    }
+    
+    #blue img {
+        width: 80%;
+        padding: 0 2rem;
+    }
 
     /* SECTION YOUR USERS */
     #section-your-users {
