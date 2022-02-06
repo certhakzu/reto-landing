@@ -141,12 +141,20 @@ NAVBAR
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
-    padding: 1rem;
+    padding: 2rem;
 }
 #green {
-    display: flex;
+    width: 60%;
+    display: grid;
     justify-content: space-around;
+    padding: 2em;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2 , 1fr);
 }
+
+
 #Green img {
     width: 80%;
     padding: 0 2rem;
@@ -315,6 +323,30 @@ NAVBAR
     }
     /*ROJO Terminacion*/
     /*START GREEN*/
+    #Green {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    #green {
+        width: 50%;
+        display: grid;
+        justify-content: space-around;
+        padding: 2em;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    
+    
+    #Green img {
+        width: 80%;
+        padding: 0 2rem;
+    }
     /*END GRREEN*/
     /*STAR YELLOW*/
     #yellow {
@@ -322,7 +354,7 @@ NAVBAR
         justify-content: space-around;
         align-items: center;
         gap: 1rem;
-        padding: 1rem;
+        padding: 0;
     }
     
     #yellow div {
@@ -335,8 +367,8 @@ NAVBAR
     }
     
     #yellow img {
-        width: 80%;
-        padding: 0 2rem;
+        width: 70%;
+        padding: 0 ;
     }
     /*END YELLOW*/
     /*STAR BLUE*/
@@ -345,12 +377,12 @@ NAVBAR
         justify-content: space-around;
         align-items: center;
         gap: 1rem;
-        padding: 1rem;
+        padding: 0;
     }
     
     #Blue div {
         font-size: 1.2rem;
-        padding: 0 3rem;
+        padding: 0 ;
     }
     
     #Blue div h2 {
@@ -358,7 +390,7 @@ NAVBAR
     }
     
     #Blue img {
-        width: 80%;
+        width: 70%;
         padding: 0 2rem;
     }
     /*END BLUE*/
@@ -382,7 +414,7 @@ NAVBAR
     }
     
     #section-your-users img {
-        width: 80%;
+        width: 70%;
         padding: 0 2rem;
     }
     
@@ -627,6 +659,30 @@ NAVBAR
     }
     /*ROJO*/
     /*START GREEN*/
+    #Green {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    #green {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        padding: 2em;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    
+    
+    #Green img {
+        width: 80%;
+        padding: 0 2rem;
+    }
     /*END GRREEN*/
     /*STAR YELLOW*/
     #yellow {
