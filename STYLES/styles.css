@@ -134,30 +134,80 @@ NAVBAR
     box-shadow: 2px 3px 11px 3px var(--Pink) ;
 }
 /*ROJO*/
-
-/*BLUE*/
-.blue {
-    position: relative;
+/*START GREEN*/
+#Green {
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    padding: 1.5rem;
+    gap: 1rem;
+    padding: 2rem;
+}
+#green {
+    width: 60%;
+    display: grid;
+    justify-content: space-around;
+    padding: 2em;
+    margin: 1rem;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2 , 1fr);
 }
 
-.blue div {
-    font-size: 1.2rem;
-    padding: 0 3rem;
-}
 
-.blue div h2 {
-    font-size: 1.8rem;
-}
-
-.blue img {
+#Green img {
     width: 80%;
     padding: 0 2rem;
 }
 
+/*END GRREEN*/
+/*STAR YELLOW*/
+#yellow {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#yellow div {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+}
+
+#yellow div h2 {
+    font-size: 1.8rem;
+}
+
+#yellow img {
+    width: 80%;
+    padding: 0 2rem;
+}
+/*END YELLOW*/
+/*STAR BLUE*/
+#Blue {
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+#Blue div {
+    font-size: 1.2rem;
+    padding: 0 3rem;
+}
+
+#Blue div h2 {
+    font-size: 1.8rem;
+}
+
+#Blue img {
+    width: 80%;
+    padding: 0 2rem;
+}
+/*END BLUE*/
 
 /* RESPONSIVE DESKTOP */
 @media only screen and (min-width: 480px) {
@@ -272,30 +322,79 @@ NAVBAR
         box-shadow: 2px 3px 11px 3px var(--Pink) ;
     }
     /*ROJO Terminacion*/
-
-    /*START BLUE*/
-    #blue {
+    /*START GREEN*/
+    #Green {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    #green {
+        width: 50%;
+        display: grid;
+        justify-content: space-around;
+        padding: 2em;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    
+    
+    #Green img {
+        width: 80%;
+        padding: 0 2rem;
+    }
+    /*END GRREEN*/
+    /*STAR YELLOW*/
+    #yellow {
         display: flex;
         justify-content: space-around;
         align-items: center;
         gap: 1rem;
-        padding: 1rem;
+        padding: 0;
     }
     
-    #blue div {
+    #yellow div {
         font-size: 1.2rem;
         padding: 0 3rem;
     }
     
-    #blue div h2 {
+    #yellow div h2 {
         font-size: 1.8rem;
     }
     
-    #blue img {
-        width: 80%;
+    #yellow img {
+        width: 70%;
+        padding: 0 ;
+    }
+    /*END YELLOW*/
+    /*STAR BLUE*/
+    #Blue {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 0;
+    }
+    
+    #Blue div {
+        font-size: 1.2rem;
+        padding: 0 ;
+    }
+    
+    #Blue div h2 {
+        font-size: 1.8rem;
+    }
+    
+    #Blue img {
+        width: 70%;
         padding: 0 2rem;
     }
-
+    /*END BLUE*/
+    /*START BLACK*/
     /* SECTION YOUR USERS */
     #section-your-users {
         display: flex;
@@ -315,7 +414,7 @@ NAVBAR
     }
     
     #section-your-users img {
-        width: 80%;
+        width: 70%;
         padding: 0 2rem;
     }
     
@@ -503,7 +602,7 @@ NAVBAR
     .introduction {
         margin: 3rem auto;
         width: 100%;
-        height: 30vh;
+        height: 300px;
         display: grid;
         justify-content: center;
         align-items: center;
@@ -559,6 +658,90 @@ NAVBAR
         box-shadow: 2px 3px 11px 3px var(--Pink) ;
     }
     /*ROJO*/
+    /*START GREEN*/
+    #Green {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 1rem;
+        padding: 2rem;
+    }
+    #green {
+        width: 100%;
+        display: grid;
+        justify-content: space-around;
+        padding: 2em;
+        margin: 1rem;
+        align-items: center;
+        text-align: center;
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    
+    
+    #Green img {
+        width: 80%;
+        padding: 0 2rem;
+    }
+    /*END GRREEN*/
+    /*STAR YELLOW*/
+    #yellow {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 4rem;
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    #yellow div {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    #yellow div h2 {
+        font-size: 1.2rem;
+    }
+
+    #yellow div p {
+        font-size: 0.8rem;
+    }
+
+    #yellow img {
+        width: 90%;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    /*END YELLOW*/
+    /*STAR BLUE*/
+    #Blue {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 4rem;
+        padding: 1rem;
+        flex-direction: column-reverse;
+    }
+
+    #Blue div {
+        padding: 0 1rem;
+        text-align: center;
+    }
+
+    #Blue div h2 {
+        font-size: 1.2rem;
+    }
+
+    #Blue div p {
+        font-size: 0.8rem;
+    }
+
+    #Blue img {
+        width: 90%;
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+    /*END BLUE*/
     /* NEGRO */
     /* SECTION YOUR USERS */
     #section-your-users {
